@@ -1,0 +1,4 @@
+$rem : 1rem;
+@function px-to-rem($n){
+    @return 10/750*$n*$rem;//10除设计稿宽度乘元素宽度乘rem
+}
